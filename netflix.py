@@ -19,7 +19,7 @@ st.title("Realiza una búsqueda de película")
 st.text("Grecia Pacheco Castellanos A01366730")
 load_state = st.text('Cargando la DB de netflix...')
 data = load_data(500)
-load_state.text('¿Qué peli quieres buscar?')
+load_state.text('Busca la película que desees usando los filtros')
 
 # -----------------------------------------------------------
 # DASHBOARD
