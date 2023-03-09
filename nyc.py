@@ -13,6 +13,8 @@ def load_data(nrows):
     return data
 
 st.title("City Bike Trips")
+st.text("Grecia Pacheco Castellanos A01366730")
+
 load_state = st.text('Cargando la DB...')
 data = load_data(500)
 load_state.text('¿Qué quieres visualizar?')
